@@ -3,6 +3,7 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
         <link
             href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
             rel="stylesheet"
@@ -14,6 +15,7 @@
             integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
             crossorigin="anonymous"
         ></script>
+
         <script
             src="https://kit.fontawesome.com/d55ebf2a76.js"
             crossorigin="anonymous"
@@ -31,19 +33,32 @@
             rel="stylesheet"
         />
         <link rel="stylesheet" href="/src/styles.css" />
+
         <title>Homepage: Emily V Ingraham - Front-End Web Developer</title>
     </head>
     <body>
-        <h1>Page Headings</h1>
-        <h2>Sub Headings</h2>
-        <p>Body Text</p>
+        <div class="hero rounded text-white text-center p-2">
+            <h2 class="pt-2 pb-0">👋Hi, I am</h2>
+            <h1 class="lh-sm">Emily Ingraham</h1>
+            <p class="lh-md pb-0 fs-5">
+                Front-End Web Developer, based in Colorado, USA
+            </p>
+            <div>
+                <button type="button" class="btn btn-outline-light m-2">
+                    Contact
+                </button>
+            </div>
+        </div>
+        <div class="p-3 rounded">
+            <p>Body Text</p>
+        </div>
         <footer>
-            <div class="bg-dark text-white p-3 rounded text-center">
-                <i class="fa-brands fa-linkedin fs-3 me-4"></i>
-                <i class="fa-brands fa-square-instagram fs-3 me-4"></i>
-                <i class="fa-brands fa-square-github fs-3 me-4"></i>
-                <i class="fa-solid fa-envelope fs-3 me-4"></i>
-                <i class="fa-solid fa-phone fs-4 me-4"></i>
+            <div class="hero text-white p-3 rounded text-center">
+                <i class="fa-brands fa-linkedin fs-4 mx-2"></i>
+                <i class="fa-brands fa-square-instagram fs-4 mx-2"></i>
+                <i class="fa-brands fa-square-github fs-4 mx-2"></i>
+                <i class="fa-solid fa-envelope fs-4 mx-2"></i>
+                <i class="fa-solid fa-phone fs-5 mx-2"></i>
             </div>
         </footer>
     </body>

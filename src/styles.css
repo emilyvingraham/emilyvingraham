@@ -1,3 +1,7 @@
+:root {
+    --primary-background: #191919;
+}
+
 h1 {
     font-family: 'Playfair Display', serif;
     font-weight: bold;
@@ -13,4 +17,10 @@ p {
 }
 body {
     margin: 30px;
+    background-color: #EEEEEE;
 }
+
+.hero {
+    background-color: var(--primary-background);
+}
+
