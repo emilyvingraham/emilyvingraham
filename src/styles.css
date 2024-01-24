@@ -1,8 +1,8 @@
 :root {
-    --primary-background: #191919;
-    --project-heading-color: #2D4263;
+    --primary-background: #2d4263;
+    --project-heading-color: #536c94;
     --button-and-body-color: #eeeeee;
-    --hover-color: #C84B31;
+    --hover-color: #54647F;
 }
 
 @media (max-width: 576px) {
@@ -17,9 +17,11 @@
         font-size: 12px;
     }
 }
+.heading {
+    margin-top: 50px;
+}
 
-
-h1, 
+h1,
 h2,
 h3 {
     font-family: 'Playfair Display', serif;
@@ -50,10 +52,10 @@ p {
     font-size: 14px;
 }
 body {
-    margin: 30px;
     background-color: #eeeeee;
 }
 
 .hero {
     background-color: var(--primary-background);
+    opacity: 0.8;
 }
