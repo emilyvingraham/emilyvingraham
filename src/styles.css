@@ -1,26 +1,59 @@
 :root {
     --primary-background: #191919;
+    --project-heading-color: #2D4263;
+    --button-and-body-color: #eeeeee;
+    --hover-color: #C84B31;
 }
 
-h1 {
+@media (max-width: 576px) {
+    .description-p {
+        text-align: center;
+    }
+    h3 {
+        text-align: center;
+    }
+    .media-button {
+        text-align: center;
+        font-size: 12px;
+    }
+}
+
+
+h1, 
+h2,
+h3 {
     font-family: 'Playfair Display', serif;
     font-weight: bold;
 }
-h2 {
-    font-family: 'Playfair Display', serif;
-    font-weight: bold;
+
+h3 {
+    color: var(--project-heading-color);
+}
+
+.launch-button {
+    background-color: var(--primary-background);
+    color: var(--button-and-body-color);
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.launch-button:hover {
+    background-color: var(--hover-color);
+    text-decoration: underline;
 }
 
 p {
     font-family: 'Poppins', sans-serif;
     font-weight: normal;
 }
+.description-p {
+    font-size: 14px;
+}
 body {
     margin: 30px;
-    background-color: #EEEEEE;
+    background-color: #eeeeee;
 }
 
 .hero {
     background-color: var(--primary-background);
 }
-
