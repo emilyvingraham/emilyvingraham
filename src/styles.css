@@ -1,6 +1,6 @@
 :root {
-    --primary-background: #191919;
-    --project-heading-color: #536c94;
+    --primary-background: #424141;
+    --button-color: #424141;
     --button-and-body-color: #eeeeee;
     --hover-color: #54647F;
 }
@@ -22,18 +22,13 @@
 }
 
 h1,
-h2,
-h3 {
+h2 {
     font-family: 'Playfair Display', serif;
     font-weight: bold;
 }
 
-h3 {
-    color: var(--project-heading-color);
-}
-
 .launch-button {
-    background-color: var(--primary-background);
+    background-color: var(--button-color);
     color: var(--button-and-body-color);
     text-decoration: none;
     font-weight: 500;
@@ -51,9 +46,7 @@ p {
     font-family: 'Poppins', sans-serif;
     font-weight: normal;
 }
-.description-p {
-    font-size: 14px;
-}
+
 body {
     background-color: #eeeeee;
     margin: 20px;
@@ -61,4 +54,5 @@ body {
 
 .hero {
     background-color: var(--primary-background);
+    border-radius: 4px;
 }
