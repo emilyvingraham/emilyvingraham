@@ -37,6 +37,9 @@ h3 {
     color: var(--button-and-body-color);
     text-decoration: none;
     font-weight: 500;
+    margin: 10px auto;
+    padding: 10px;
+    border-radius: 10px;
 }
 
 .launch-button:hover {
@@ -53,6 +56,7 @@ p {
 }
 body {
     background-color: #eeeeee;
+    margin: 20px;
 }
 
 .hero {
