@@ -8,6 +8,7 @@
 @media (max-width: 576px) {
     .description-p {
         text-align: center;
+        font-size: 14px;
     }
     h3 {
         text-align: center;
@@ -21,6 +22,9 @@
     margin-top: 50px;
 }
 
+.headshot {
+    border-radius: 20px;
+}
 h1,
 h2 {
     font-family: 'Playfair Display', serif;
