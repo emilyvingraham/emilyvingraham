@@ -65,7 +65,7 @@ p {
 }
 .portfolio-projects-background {
     background-color: var(--primary-background);
-    color: white;
+    color: var(--button-and-body-color);
 }
 
 
