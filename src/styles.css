@@ -51,12 +51,26 @@ p {
     font-weight: normal;
 }
 
-.portfolio-projects {
-    font-size: 14px;
+.portfolio-projects-text {
+    font-size: 12px;
+}
+.portfolio-projects-heading {
+    color: var(--button-and-body-color);
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    line-height: .5;
+}
+.portfolio-projects-border {
+    border: 2px solid var(--primary-background);
+}
+.portfolio-projects-background {
+    background-color: var(--primary-background);
+    color: white;
 }
 
+
 body {
-    background-color: #eeeeee;
+    background-color: var(--button-and-body-color);
     margin: 20px;
 }
 
