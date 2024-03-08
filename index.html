@@ -41,66 +41,63 @@
         <title>Homepage: Emily V Ingraham - Front-End Web Developer</title>
     </head>
     <body>
-            <nav
-                class="navbar navbar-expand-lg fixed-top"
-                style="background-color: #eeeeee"
-                data-bs-theme="light"
-            >
-                <div class="container-fluid">
-                    <a class="navbar-brand nav-font me-5" href="/" title="Homepage"
-                        >EVI</a
-                    >
-                    <button
-                        class="navbar-toggler"
-                        type="button"
-                        data-bs-toggle="collapse"
-                        data-bs-target="#navbarNav"
-                        aria-controls="navbarNav"
-                        aria-expanded="false"
-                        aria-label="Toggle navigation"
-                    >
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarNav">
-                        <ul class="navbar-nav">
-                            <li class="nav-item">
-                                <a
-                                    class="nav-link active"
-                                    aria-current="page"
-                                    href="/"
-                                    title="Homepage"
-                                    >Home</a
-                                >
-                            </li>
-                            <li class="nav-item">
-                                <a
-                                    class="nav-link"
-                                    href="/about.html"
-                                    title="About"
-                                    >About</a
-                                >
-                            </li>
-                            <li class="nav-item">
-                                <a
-                                    class="nav-link"
-                                    href="/portfolio.html"
-                                    title="Portfolio"
-                                    >Portfolio</a
-                                >
-                            </li>
-                            <li class="nav-item">
-                                <a
-                                    class="nav-link"
-                                    href="/contact.html"
-                                    title="Contact"
-                                    >Contact</a
-                                >
-                            </li>
-                        </ul>
-                    </div>
+        <nav
+            class="navbar navbar-expand-lg fixed-top"
+            style="background-color: #eeeeee"
+            data-bs-theme="light"
+        >
+            <div class="container-fluid">
+                <a class="navbar-brand nav-font me-5" href="/" title="Homepage"
+                    >EVI</a
+                >
+                <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarNav"
+                    aria-controls="navbarNav"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                >
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a
+                                class="nav-link active"
+                                aria-current="page"
+                                href="/"
+                                title="Homepage"
+                                >Home</a
+                            >
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/about.html" title="About"
+                                >About</a
+                            >
+                        </li>
+                        <li class="nav-item">
+                            <a
+                                class="nav-link"
+                                href="/portfolio.html"
+                                title="Portfolio"
+                                >Portfolio</a
+                            >
+                        </li>
+                        <li class="nav-item">
+                            <a
+                                class="nav-link"
+                                href="/contact.html"
+                                title="Contact"
+                                >Contact</a
+                            >
+                        </li>
+                    </ul>
                 </div>
-            </nav>
-        
+            </div>
+        </nav>
+
         <div class="heading">
             <div class="hero text-white text-center p-2">
                 <h2 class="pt-2 pb-0 mt-3">👋Hi, I am</h2>
@@ -124,109 +121,96 @@
             <h2 class="text-center fs-1 my-3">Favorite Projects</h2>
         </div>
 
-        <div id="carouselExampleIndicators" class="carousel slide">
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <div>
-                        <img
-                            src="/images/dinner-app.png"
-                            class="d-block m-auto rounded shadow img-fluid"
-                            alt="dinner-app"
-                        />
-                    </div>
-                    <div class="text-center p-3 m-2">
-                        <a
-                            href="https://whats-for-dinner-ai-generator.netlify.app/"
-                            target="_blank"
-                            class="launch-button"
-                            title="Launch Application"
-                            >Launch Application</a
-                        >
-                        <p class="pt-3">
-                            Built using VS Code and AI, this application allows
-                            end users to generate a dinner recipe based off the
-                            cuisine category provided. <br />This is one of my
-                            favorite projects, mostly because I can never decide
-                            what to cook for dinner.
-                        </p>
-                    </div>
+        <section>
+            <div class="row">
+                <div class="col-md-6">
+                    <img
+                        src="images/new-react-dictionary.png"
+                        alt="react-dictionary-application"
+                        class="img-fluid rounded"
+                    />
                 </div>
-
-                <div class="carousel-item">
+                <div class="col-md-6">
+                    <h1>Dictionary</h1>
+                    <p>
+                        This application was one of my favorites to build. My
+                        second react project, I amazed myself with what I
+                        learned and the hurdles I worked through.
+                    </p>
                     <div>
-                        <img
-                            src="/images/weather-app.png"
-                            class="d-block m-auto rounded shadow img-fluid"
-                            alt="weather-app"
-                        />
-                    </div>
-                    <div class="text-center p-3 m-2">
                         <a
-                            href="https://plus-final-project-weather.netlify.app/"
+                            href="https://react-dictionary-application-evi.netlify.app/"
                             target="_blank"
-                            class="launch-button"
+                            class="btn btn-outline-dark d-block text-center"
                             title="Launch Application"
                             >Launch Application</a
                         >
-                        <p class="pt-3">
-                            Built using VS Code and API integration, this
-                            application allows end users to generate current and
-                            forecasted weather in a city of their choosing.
-                        </p>
-                    </div>
-                </div>
-
-                <div class="carousel-item">
-                    <div>
-                        <img
-                            src="/images/world-clock-2.png"
-                            class="d-block m-auto rounded shadow img-fluid"
-                            alt="world-clock-app"
-                        />
-                    </div>
-                    <div class="text-center p-3 m-2">
-                        <a
-                            href="https://world-clock-evi-final-project.netlify.app/"
-                            target="_blank"
-                            class="launch-button"
-                            title="Launch Application"
-                            >Launch Application</a
-                        >
-                        <p class="pt-3">
-                            Built using US Code and API integration, this
-                            application allows end users to generate the current
-                            date and time in a city of their choosing.
-                        </p>
                     </div>
                 </div>
             </div>
-        </div>
-
-        <button
-            class="carousel-control-prev"
-            type="button"
-            data-bs-target="#carouselExampleIndicators"
-            data-bs-slide="prev"
-        >
-            <span
-                class="carousel-control-prev-icon bg-dark rounded"
-                aria-hidden="true"
-            ></span>
-            <span class="visually-hidden">Previous</span>
-        </button>
-
-        <button
-            class="carousel-control-next"
-            type="button"
-            data-bs-target="#carouselExampleIndicators"
-            data-bs-slide="next"
-        >
-            <span
-                class="carousel-control-next-icon bg-dark rounded"
-                aria-hidden="true"
-            ></span>
-            <span class="visually-hidden">Next</span>
-        </button>
+        </section>
+        <section>
+            <div class="row">
+                <div class="col-md-6">
+                    <h1>I ❤️ Colorado</h1>
+                    <p>
+                        This application was incredibly fun to build. As a
+                        temporary Colorado resident, I felt obligated to build a
+                        website encouraging viewers to travel to the US state.
+                        The natural beauty, weather, and culture here won me
+                        over quickly. I am forever grateful to my Colorado
+                        experience.
+                    </p>
+                    <div>
+                        <a
+                            href="https://app.netlify.com/sites/travel-to-colorado-evi/overview"
+                            target="_blank"
+                            class="btn btn-outline-dark d-block text-center"
+                            title="Launch Application"
+                            >Launch Application</a
+                        >
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <img
+                        src="images/new-travel.png"
+                        alt="react-weather-react-application"
+                        class="img-fluid rounded"
+                    />
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="row">
+                <div class="col-md-6">
+                    <img
+                        src="images/new-react-weather.png"
+                        alt="react-weather-react-application"
+                        class="img-fluid rounded"
+                    />
+                </div>
+                <div class="col-md-6">
+                    <h1>Weather</h1>
+                    <p>
+                        My first project using React, this is one I am
+                        incredibly proud of. I have to admit, using React had my
+                        head spinning at first. But with practice, I was able to
+                        build this application and allow users to display the
+                        current weather and forecast in any international
+                        location.
+                    </p>
+                    <div>
+                        <a
+                            href="https://international-react-weather-app-evi.netlify.app/"
+                            target="_blank"
+                            class="btn btn-outline-dark d-block text-center"
+                            title="Launch Application"
+                            >Launch Application</a
+                        >
+                    </div>
+                </div>
+            </div>
+        </section>
 
         <div class="repo">
             <p class="p-0 m-0">
